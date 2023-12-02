@@ -1,0 +1,96 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #36768c;
+    font-family: 'roboto' , sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+   /* gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr)); */
+  }
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid white;flex: 1 0 30%; /* Adjust the width as per your requirements */
+  min-width: 200px; /* Minimum width for responsiveness */
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+    position: relative;
+
+     flex: 1 0 20%;
+  min-width: 200px; 
+  margin: 20px;
+  padding: 20px;
+  /* card-sizing: border-card; */
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    color: #ffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+.card:hover .card-body{
+right: 0;
+}
+.card-title{
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.card-sub-title{
+    color:whitesmoke;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-info{
+    color:whitesmoke;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+.card-btn{
+    color: #1f3d47;
+    background: #8fabba;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}

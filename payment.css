@@ -1,0 +1,48 @@
+.payment{
+    margin: auto;
+    width: 40%;
+    background-color: #CBE4DE;
+    padding: 20px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.payment h2{
+    text-align: center;
+}
+.payment p{
+    text-align: center;
+}
+.payment button{
+    width: 30%;
+    background-color: #ecf1f1;
+    color: #0E8388;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.visa{
+    margin-left: 120px;
+}
+.cash{
+    
+    margin-left: 4px;
+}
+.payment button:hover{
+    background-color: #2C3333;
+}
+.payment img{
+    display: block;
+    width: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.download{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}

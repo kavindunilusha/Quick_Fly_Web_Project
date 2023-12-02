@@ -1,0 +1,77 @@
+
+            *{
+                margin: 0;
+                padding:0;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background: url("../img/06.png");
+                backdrop-filter: blur(8px);
+                
+            }
+
+            h1 {
+                margin-bottom: 20px;
+            }
+
+            .container {
+                max-width: 800px;
+                max-height: 100rem;
+                margin: 0 auto;
+                
+            
+            }
+
+            .support-container {
+                
+                background: cover;
+                overflow-x: hidden;
+                height: 100%;
+                width: 100%;
+            }
+
+            .support-text {
+                font-size: 16px;
+                line-height: 1.6;
+                margin-bottom: 20px;
+            }
+
+            .support-form input,
+            .support-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+
+            .support-form select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+
+            .support-form button {
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: #0E8388;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            .support-form button:hover {
+                background-color: #45a049;
+            }
+
+            .content{
+                height:80%;
+                width: 80%;
+            }
+
+            .link a{
+                color: white;
+                font-size: 18px;
+            }
+     

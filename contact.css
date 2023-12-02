@@ -1,0 +1,158 @@
+
+
+body{
+
+	
+	background-repeat: no-repeat;
+	background-image: url(../img/contact-us-lettering.jpg);
+	backdrop-filter: blur(8px);
+	background-size:100%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.Contact-detail{
+	max-width: 300rem;
+	height: 25rem;
+  	position: absolute;
+	margin-left:6%;
+	background:white;
+	padding: 30px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-color: red;
+	background-color: rgba(255, 255, 255, 0.7);
+	
+
+	
+
+}
+.Background-Contact{
+opacity: 0.8;
+
+}
+
+
+
+.Contact-Content{
+
+	font: italic 15px monospace;
+	
+	
+}
+
+
+/* Social media Media Button*/
+.social-btn{
+	margin: 3px auto;
+	text-align: center;
+
+
+}
+.social-btn img{
+
+	width: 40px;
+	margin: 50px 15px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 35%;
+
+/* End-Social  Media Button*/
+
+
+}
+.Contact-detail2{
+	position: absolute;
+	width: 45%;
+	height: 580px;
+	left: 35%;
+	
+	background:white;
+	padding: 30px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-color: red;
+	
+	
+
+}
+
+
+.Contact-Content2{
+
+	font: italic 20px monospace;
+	font-size:16px;
+	font-family: Georgia, serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+/* Input Feilds*/
+
+input[type=text ], select, textarea {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+
+}
+
+
+input[type=email] {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 5px 5px 5px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+	font-size:14px auto;
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 32%;
+  width: 30%;
+  margin-top: 2%;
+}
+
+input[type=submit]:hover {  /*mouse Pointer*/
+  background-color: #45a049;
+}
+ /* End-Input Feilds*/
+
+
+.Contact-btn{
+ 
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius:10%;
+  position: relative;
+ 
+}

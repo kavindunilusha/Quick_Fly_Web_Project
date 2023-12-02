@@ -1,0 +1,97 @@
+/* Cards */
+.packages{
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    position: relative;
+    width: 20%;
+    max-height: 500px;
+    height: auto;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CBE4DE;
+    border-radius: 10px;
+    padding: 0.5em;
+    padding-bottom: 3.4em;
+    margin: 25px;
+  }
+  .card:hover{
+    scale: 1.1;
+    border:5px solid #0E8388;
+  }
+  .card::after {
+    content: "VISIT";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: #333;
+    color: #0E8388;
+    height: 2.5rem;
+    width: 90%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+    border-radius: 10px;
+    
+  }
+  
+  .card .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 0.625em;
+    bottom: 1.875em;
+    font-weight: 400;
+    color: #0E8388;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.625em;
+    color: #000;
+  }
+  
+  .card:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .card:active {
+    transform: scale(0.8);
+  }
+  
+  .card:active::after {
+    content: "GO !";
+    height: 3.125em;
+  }
+  
+  .text {
+    max-width: 55px;
+  }
+  
+  .image img{
+    background: rgb(241, 241, 241);
+    width: 100%;
+    height: auto;
+    position: relative;
+    place-items: center;
+  }
+  .headline-1{
+    text-align: center;
+  }
+  @media screen and (max-width:600px) {
+    .text{
+      display: none;
+    }
+  }

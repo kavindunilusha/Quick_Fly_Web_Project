@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/Air.jpg);
+    backdrop-filter: blur(8px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.add{
+    
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    padding:20px;
+    background-color: #0E8388(1.1);
+    border-radius: 10px;
+    box-shadow:  0 6px 20px 0 rgba(7, 7, 7, 0.5),
+    0 6px 20px 0 rgba(14, 14, 14, 0.19);
+}
+.add p{
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+}
+.add button{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0E8388;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add img{
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}

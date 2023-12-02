@@ -1,0 +1,41 @@
+.Book{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #CBE4DE;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+}
+.Book input,.Book label,
+.Book button{
+    margin-left: 150px;
+    display: block;
+    
+    
+}
+.Book button{
+    margin-top: 20px;
+    width: 60%;
+    background-color: #ecf1f1;
+    color: #0E8388;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Paynow button:hover{
+    background-color: #2C3333;
+}
+.Book h3{
+    text-align: center;
+}
+
+
+.Book input{
+    width: 60%;
+    height: 30px;
+}
+.Cancel button:hover{
+    background-color: red;
+}

@@ -1,0 +1,18 @@
+/* Image Slider */
+.slider{
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

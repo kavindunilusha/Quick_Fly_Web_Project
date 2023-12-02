@@ -1,0 +1,106 @@
+
+
+
+body{
+    
+    height: 100%;
+    width: 100%;
+    
+    background-image: url(../vid/shot.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ---------------- Form box ---------------- */
+
+.form-box{
+    width: 30%;
+    height: 500px;
+    top: 10px;
+    position: relative;
+    margin: 3% auto;
+    background: #505b59(1.1);
+    padding: 15px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    box-shadow: 0 6px 20px 0 rgba(247, 245, 245, 0.5),
+    0 6px 20px 0 rgba(247, 244, 244, 0.19),0 6px 20px 0 rgba(247, 244, 244, 0.19) ;
+    
+}
+
+
+.Social-Icons{
+    margin:30px auto;
+    text-align: center;
+}
+.Social-Icons img{
+    width:30px;
+    margin: 12px;
+    box-shadow: chgc;
+}    
+.input-group{
+    top: 180px;
+    right: 80px;
+    left: 50px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+button{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color:#2C3333 ;
+    color:#0E8388;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+button:hover{
+    color: #f2f2f2;
+}
+.check-box{
+    margin: 30px 10px 30px;
+}
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+.input-group p{
+    display: block;
+    margin-top: 10px;
+    margin: auto;
+}
+.input-group a{
+    text-decoration: none;
+}

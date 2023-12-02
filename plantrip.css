@@ -1,0 +1,163 @@
+/* Cards */
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url("../img/image2.jpg");
+  
+  background-size: cover;
+  
+ 
+  margin: 0;
+  padding: 0;;
+  border: 5px solid #2C3333;
+
+}
+.packages{
+    display: flex;
+    justify-content: left;
+    /* border: solid black 3px; */
+  }
+  .one{
+    
+    border: 3px solid black;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-style:unset;
+    text-align: center;
+  }
+  button{
+    padding: 15px,25px;
+    margin: 20px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    border:2px solid #ffc107 ;
+    color: #fff;
+    cursor: pointer;
+    background:linear-gradient(to left,transparent 50%,#ffc107 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+    
+  }
+  .BF{
+    color: #fff;
+    border:2px solid #fff ;
+
+  }
+  button:hover{
+    background-position: left;
+    color: #000;
+  }
+  .two{
+    background-color: gray;
+    color: white;
+    padding: 1px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: none;
+    text-align: left;
+
+
+    padding: 10px;
+  }
+  .card {
+    position: relative;
+    width: 20%;
+    max-height: 500px;
+    height: auto;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CBE4DE;
+    border-radius: 10px;
+    padding: 0.5em;
+    padding-bottom: 3.4em;
+    margin: 25px;
+  }
+  .card:hover{
+    scale: 1.1;
+    border:5px solid #0E8388;
+  }
+  .bookingcardhover{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .card::after {
+    content: "VISIT";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: #333;
+    color: #0E8388;
+    height: 2.5rem;
+    width: 90%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+    border-radius: 10px;
+    
+  }
+
+  
+  body {
+    
+    justify-content: center;
+    
+  }
+  
+  .card .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 0.625em;
+    bottom: 1.875em;
+    font-weight: 400;
+    color: #0E8388;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.625em;
+    color: #000;
+  }
+  
+  .card:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .card:active {
+    transform: scale(0.8);
+  }
+  
+  .card:active::after {
+    content: "GO !";
+    height: 3.125em;
+  }
+  
+  .text {
+    max-width: 55px;
+  }
+  
+  .image img{
+    background: rgb(241, 241, 241);
+    width: 100%;
+    height: auto;
+    position: relative;
+    place-items: center;
+  }
+  .headline-1{
+    text-align: center;
+  }
+  
